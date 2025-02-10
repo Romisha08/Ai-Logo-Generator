@@ -7,6 +7,7 @@ import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 
 
+import { toast } from "react-toastify";
 
 function GenerateLogo() {
   const { userDetail, setUserDetail } = useContext(UserDetailContex);
@@ -34,7 +35,7 @@ function GenerateLogo() {
   useEffect(()=>{
     if(typeof window !=undefined &&logoImage)
     {
-      localStorafe.clear();
+      localStorage.clear();
     }
   },[logoImage])
 

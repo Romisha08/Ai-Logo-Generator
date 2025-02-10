@@ -6,7 +6,10 @@ import axios from "axios";
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8badb3d (Fixed suspense issue and improved error handling in GenerateLogo)
 import { toast } from "react-toastify";
 
 function GenerateLogo() {
